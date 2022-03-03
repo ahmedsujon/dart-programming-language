@@ -1,17 +1,13 @@
 void main(){
 
-List<String> mylist = [ ];
+  var myMap = {
+    "name" : "Sujon Ahmed",
+    "age"  : "24",
+    "height" : "5 Feet 6 Inch"
+  };
 
-  mylist.add("a");
-  mylist.add("b");
-  mylist.add("c");
-  mylist.add("d");
-
-
-  mylist.replaceRange(0, 1, ["Bangladesh"]);
-  mylist.replaceRange(1, 3, ["UK", "US"]);
+  myMap['phone'] = "017xxx";
   
-
-  print(mylist);
+  print(myMap['phone']);
 
 }

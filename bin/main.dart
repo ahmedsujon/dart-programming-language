@@ -8,8 +8,8 @@ List<String> mylist = [ ];
   mylist.add("d");
 
 
-  mylist.removeAt(2);
-  mylist.removeAt(2);
+  mylist.replaceRange(0, 1, ["Bangladesh"]);
+  mylist.replaceRange(1, 3, ["UK", "US"]);
   
 
   print(mylist);

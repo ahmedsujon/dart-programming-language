@@ -1,16 +1,12 @@
+import 'dart:collection';
 void main(){
 
- var myset = new Set();
+var hasmap = new HashMap();
 
- myset.add(10);
-  myset.add(11);
-   myset.add(12);
-    myset.add(13);
-     myset.add(14);
- var myvalue;
+hasmap['name'] = "Sujon Ahmed";
+hasmap['age'] = "24";
+hasmap['phone'] = "01763";
 
- for(myvalue in myset){
-   print(myvalue);
- }
+print(hasmap.values);
 
 }

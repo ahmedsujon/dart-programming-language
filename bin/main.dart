@@ -1,13 +1,16 @@
 void main(){
 
-  var myMap = {
-    "name" : "Sujon Ahmed",
-    "age"  : "24",
-    "height" : "5 Feet 6 Inch"
-  };
+ var myset = new Set();
 
-  myMap['phone'] = "017xxx";
-  
-  print(myMap['phone']);
+ myset.add(10);
+  myset.add(11);
+   myset.add(12);
+    myset.add(13);
+     myset.add(14);
+ var myvalue;
+
+ for(myvalue in myset){
+   print(myvalue);
+ }
 
 }

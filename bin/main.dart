@@ -1,5 +1,6 @@
 void main(){
 
-  var name = "I'm Sujon Ahmed";
-  print(name);
+  var fName = "Sujon";
+  var lName = "Ahmed";
+  print(fName+" "+lName);
 }

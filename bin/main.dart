@@ -1,13 +1,16 @@
 void main(){
 
- var age = 8;
+    var myList = [25, 63, 84];  
+    print(myList);
+     
+    myList.add(94);
+    myList.add(95);
+    myList.add(96);
+    myList.add(95);
+    myList.add(96);
+    myList.add(96);
 
- if(age>18){
-   print("Adult");
- }else if(age<10){
-   print("Child");
- }else{
-   print("Ivalid");
- }
+
+    print(myList);
 
 }

@@ -1,9 +1,13 @@
 void main(){
 
-var i=0;
-do {
-  print(i);
-  i++;
-} while (i<10);
+ var age = 8;
+
+ if(age>18){
+   print("Adult");
+ }else if(age<10){
+   print("Child");
+ }else{
+   print("Ivalid");
+ }
 
 }
